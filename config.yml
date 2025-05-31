@@ -1,0 +1,17 @@
+baseURL: 'https://BenBar101.github.io/hugo-PaperMod'
+languageCode: 'en-us'
+title: 'My Personal Site'
+theme: '.'
+
+params:
+  author: "Ben Bar"
+  description: "My personal website"
+  
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Posts
+      url: /posts/
+      weight: 20
